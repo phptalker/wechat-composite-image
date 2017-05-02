@@ -1,0 +1,267 @@
+[2017-04-30 22:58:44] local.INFO: return response.  
+[2017-04-30 22:59:18] local.INFO: return response.  
+[2017-04-30 23:11:47] local.INFO: return response.  
+[2017-04-30 23:11:47] local.INFO: 下载图片异常了了了  
+[2017-04-30 23:11:47] local.INFO: 下载图片成功  
+[2017-04-30 23:11:47] local.INFO: 注册信息保存成功  
+[2017-04-30 23:11:47] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:13:15] local.INFO: return response.  
+[2017-04-30 23:13:36] local.INFO: return response.  
+[2017-04-30 23:13:36] local.INFO: 下载图片异常了了了  
+[2017-04-30 23:13:36] local.INFO: 下载图片成功  
+[2017-04-30 23:13:37] local.INFO: 注册信息保存成功  
+[2017-04-30 23:13:37] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:19:16] local.INFO: return response.  
+[2017-04-30 23:21:24] local.INFO: return response.  
+[2017-04-30 23:22:47] local.INFO: return response.  
+[2017-04-30 23:22:48] local.INFO: 下载图片成功  
+[2017-04-30 23:22:48] local.INFO: 注册信息保存成功  
+[2017-04-30 23:22:48] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:25:40] local.INFO: return response.  
+[2017-04-30 23:25:40] local.INFO: 下载图片成功  
+[2017-04-30 23:25:40] local.INFO: 注册信息保存成功  
+[2017-04-30 23:25:40] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:28:39] local.INFO: return response.  
+[2017-04-30 23:28:39] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:32:32] local.INFO: return response.  
+[2017-04-30 23:32:32] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:42:16] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "app:debug" is not defined.
+
+Did you mean this?
+    app:name' in /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php:515
+Stack trace:
+#0 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('app:debug')
+#1 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/xianghongwang/phpproj/wechat.store.looip.cn/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  
+[2017-04-30 23:42:56] local.INFO: return response.  
+[2017-04-30 23:42:56] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:43:46] local.ERROR: exception 'Symfony\Component\Process\Exception\ProcessTimedOutException' with message 'The process "'/usr/bin/php' 'artisan' queue:work '' --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0 --env='local'" exceeded the timeout of 60 seconds.' in /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php:1152
+Stack trace:
+#0 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php(361): Symfony\Component\Process\Process->checkTimeout()
+#1 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php(203): Symfony\Component\Process\Process->wait()
+#2 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(120): Symfony\Component\Process\Process->run(Object(Closure))
+#3 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(105): Illuminate\Queue\Listener->runProcess(Object(Symfony\Component\Process\Process), 128)
+#4 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(73): Illuminate\Queue\Listener->listen(NULL, 'default', 0, 128, 60)
+#5 [internal function]: Illuminate\Queue\Console\ListenCommand->fire()
+#6 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Queue\Console\ListenCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /Users/xianghongwang/phpproj/wechat.store.looip.cn/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2017-04-30 23:46:03] local.INFO: return response.  
+[2017-04-30 23:46:03] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:46:11] local.INFO: queue process  
+[2017-04-30 23:46:47] local.INFO: return response.  
+[2017-04-30 23:46:47] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:46:54] local.INFO: queue process  
+[2017-04-30 23:47:16] local.INFO: return response.  
+[2017-04-30 23:47:16] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:47:17] local.INFO: queue process  
+[2017-04-30 23:48:17] local.ERROR: exception 'Symfony\Component\Process\Exception\ProcessTimedOutException' with message 'The process "'/usr/bin/php' 'artisan' queue:work '' --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0 --env='local'" exceeded the timeout of 60 seconds.' in /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php:1152
+Stack trace:
+#0 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php(361): Symfony\Component\Process\Process->checkTimeout()
+#1 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php(203): Symfony\Component\Process\Process->wait()
+#2 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(120): Symfony\Component\Process\Process->run(Object(Closure))
+#3 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(105): Illuminate\Queue\Listener->runProcess(Object(Symfony\Component\Process\Process), 128)
+#4 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(73): Illuminate\Queue\Listener->listen(NULL, 'default', 0, 128, 60)
+#5 [internal function]: Illuminate\Queue\Console\ListenCommand->fire()
+#6 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Queue\Console\ListenCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /Users/xianghongwang/phpproj/wechat.store.looip.cn/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2017-04-30 23:51:20] local.INFO: return response.  
+[2017-04-30 23:51:20] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:51:24] local.INFO: queue process  
+[2017-04-30 23:51:24] local.INFO: 46  
+[2017-04-30 23:51:24] local.INFO: queue process  
+[2017-04-30 23:51:24] local.INFO: 46  
+[2017-04-30 23:52:02] local.INFO: return response.  
+[2017-04-30 23:52:02] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:52:03] local.INFO: queue process  
+[2017-04-30 23:52:03] local.INFO: 46  
+[2017-04-30 23:54:18] local.INFO: queue process  
+[2017-04-30 23:54:18] local.INFO: 46  
+[2017-04-30 23:55:09] local.INFO: queue process  
+[2017-04-30 23:55:09] local.INFO: 46  
+[2017-04-30 23:55:30] local.INFO: queue process  
+[2017-04-30 23:55:30] local.INFO: 46  
+[2017-04-30 23:55:44] local.INFO: queue process  
+[2017-04-30 23:55:44] local.INFO: 46  
+[2017-04-30 23:56:23] local.INFO: queue process  
+[2017-04-30 23:56:23] local.INFO: 46  
+[2017-04-30 23:59:00] local.INFO: return response.  
+[2017-04-30 23:59:00] local.INFO: 上传成功，接下来发送消息  
+[2017-04-30 23:59:01] local.INFO: queue process  
+[2017-04-30 23:59:01] local.INFO: 46  
+[2017-05-01 00:00:02] local.INFO: return response.  
+[2017-05-01 00:00:02] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:00:05] local.INFO: queue process  
+[2017-05-01 00:00:05] local.INFO: 46  
+[2017-05-01 00:01:01] local.INFO: return response.  
+[2017-05-01 00:01:01] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:01:03] local.INFO: queue process  
+[2017-05-01 00:01:03] local.INFO: 46  
+[2017-05-01 00:01:20] local.INFO: return response.  
+[2017-05-01 00:01:20] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:01:22] local.INFO: queue process  
+[2017-05-01 00:01:22] local.INFO: 46  
+[2017-05-01 00:02:10] local.INFO: return response.  
+[2017-05-01 00:02:10] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:02:19] local.INFO: return response.  
+[2017-05-01 00:02:19] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:02:22] local.INFO: queue process  
+[2017-05-01 00:02:22] local.INFO: 46  
+[2017-05-01 00:02:23] local.INFO: 下载图片成功  
+[2017-05-01 00:02:23] local.INFO: queue process  
+[2017-05-01 00:02:23] local.INFO: 46  
+[2017-05-01 00:02:23] local.INFO: 下载图片成功  
+[2017-05-01 00:02:23] local.INFO: queue process  
+[2017-05-01 00:02:23] local.INFO: 46  
+[2017-05-01 00:02:24] local.INFO: 下载图片成功  
+[2017-05-01 00:03:29] local.INFO: return response.  
+[2017-05-01 00:03:29] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:03:31] local.INFO: queue process  
+[2017-05-01 00:03:31] local.INFO: 46  
+[2017-05-01 00:03:31] local.INFO: 下载图片成功  
+[2017-05-01 00:05:17] local.INFO: return response.  
+[2017-05-01 00:05:17] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:05:20] local.INFO: queue process  
+[2017-05-01 00:05:20] local.INFO: 46  
+[2017-05-01 00:05:49] local.INFO: return response.  
+[2017-05-01 00:05:49] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:05:54] local.INFO: queue process  
+[2017-05-01 00:05:54] local.INFO: 46  
+[2017-05-01 00:06:09] local.INFO: return response.  
+[2017-05-01 00:06:09] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:06:13] local.INFO: queue process  
+[2017-05-01 00:06:13] local.INFO: 46  
+[2017-05-01 00:06:13] local.INFO: 下载图片成功  
+[2017-05-01 00:06:20] local.INFO: queue process  
+[2017-05-01 00:06:20] local.INFO: 46  
+[2017-05-01 00:06:20] local.INFO: 下载图片成功  
+[2017-05-01 00:06:55] local.INFO: queue process  
+[2017-05-01 00:06:55] local.INFO: 46  
+[2017-05-01 00:06:55] local.INFO: 下载图片成功  
+[2017-05-01 00:08:26] local.INFO: return response.  
+[2017-05-01 00:08:26] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:08:28] local.INFO: queue process  
+[2017-05-01 00:08:28] local.INFO: 46  
+[2017-05-01 00:08:28] local.INFO: 下载图片成功  
+[2017-05-01 00:08:54] local.INFO: return response.  
+[2017-05-01 00:08:54] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:08:54] local.INFO: queue process  
+[2017-05-01 00:08:54] local.INFO: 46  
+[2017-05-01 00:08:54] local.INFO: 下载图片成功  
+[2017-05-01 00:09:14] local.INFO: return response.  
+[2017-05-01 00:09:14] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:09:16] local.INFO: queue process  
+[2017-05-01 00:09:16] local.INFO: 46  
+[2017-05-01 00:10:58] local.INFO: return response.  
+[2017-05-01 00:10:58] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:11:04] local.INFO: queue process  
+[2017-05-01 00:11:04] local.INFO: 46  
+[2017-05-01 00:11:04] local.INFO: 下载图片成功  
+[2017-05-01 00:11:04] local.INFO: queue process  
+[2017-05-01 00:11:04] local.INFO: 46  
+[2017-05-01 00:11:04] local.INFO: 下载图片成功  
+[2017-05-01 00:11:17] local.INFO: return response.  
+[2017-05-01 00:11:17] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:11:17] local.INFO: queue process  
+[2017-05-01 00:11:17] local.INFO: 46  
+[2017-05-01 00:11:17] local.INFO: 下载图片成功  
+[2017-05-01 00:11:27] local.INFO: return response.  
+[2017-05-01 00:11:27] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 00:11:30] local.INFO: queue process  
+[2017-05-01 00:11:30] local.INFO: 46  
+[2017-05-01 00:11:30] local.INFO: 下载图片成功  
+[2017-05-01 03:09:07] local.ERROR: exception 'Symfony\Component\Process\Exception\ProcessTimedOutException' with message 'The process "'/usr/bin/php' 'artisan' queue:work '' --queue='default' --delay=0 --memory=128 --sleep=3 --tries=0 --env='local'" exceeded the timeout of 60 seconds.' in /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php:1152
+Stack trace:
+#0 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php(361): Symfony\Component\Process\Process->checkTimeout()
+#1 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/process/Process.php(203): Symfony\Component\Process\Process->wait()
+#2 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(120): Symfony\Component\Process\Process->run(Object(Closure))
+#3 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Listener.php(105): Illuminate\Queue\Listener->runProcess(Object(Symfony\Component\Process\Process), 128)
+#4 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Queue/Console/ListenCommand.php(73): Illuminate\Queue\Listener->listen(NULL, 'default', 0, 128, 60)
+#5 [internal function]: Illuminate\Queue\Console\ListenCommand->fire()
+#6 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Container/Container.php(507): call_user_func_array(Array, Array)
+#7 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Console/Command.php(169): Illuminate\Container\Container->call(Array)
+#8 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Command/Command.php(256): Illuminate\Console\Command->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Console/Command.php(155): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(794): Illuminate\Console\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(186): Symfony\Component\Console\Application->doRunCommand(Object(Illuminate\Queue\Console\ListenCommand), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/xianghongwang/phpproj/wechat.store.looip.cn/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#14 /Users/xianghongwang/phpproj/wechat.store.looip.cn/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#15 {main}  
+[2017-05-01 10:38:13] local.INFO: return response.  
+[2017-05-01 10:38:13] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 10:39:11] local.INFO: 下载图片成功  
+[2017-05-01 10:39:11] local.INFO: 17050110390546.jpg  
+[2017-05-01 10:39:11] local.INFO: 注册信息保存成功  
+[2017-05-01 10:39:56] local.INFO: return response.  
+[2017-05-01 10:39:56] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 10:39:56] local.INFO: 下载图片成功  
+[2017-05-01 10:39:56] local.INFO: 17050110390546.jpg  
+[2017-05-01 10:39:56] local.INFO: 注册信息保存成功  
+[2017-05-01 10:40:25] local.INFO: return response.  
+[2017-05-01 10:40:44] local.INFO: return response.  
+[2017-05-01 10:40:44] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 10:40:45] local.INFO: 下载图片成功  
+[2017-05-01 10:40:45] local.INFO: 17050110400546.jpg  
+[2017-05-01 10:40:45] local.INFO: 注册信息保存成功  
+[2017-05-01 10:42:43] local.INFO: return response.  
+[2017-05-01 10:43:02] local.INFO: return response.  
+[2017-05-01 10:43:02] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 10:43:55] local.INFO: 下载图片成功  
+[2017-05-01 10:43:55] local.INFO: 17050110430546.jpg  
+[2017-05-01 10:43:55] local.INFO: 注册信息保存成功  
+[2017-05-01 10:44:45] local.INFO: return response.  
+[2017-05-01 10:44:45] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 13:00:47] local.INFO: queue process  
+[2017-05-01 13:00:47] local.INFO: 46  
+[2017-05-01 13:00:51] local.INFO: queue process  
+[2017-05-01 13:00:51] local.INFO: 46  
+[2017-05-01 13:00:52] local.INFO: queue process  
+[2017-05-01 13:00:52] local.INFO: 46  
+[2017-05-01 13:02:10] local.INFO: queue process  
+[2017-05-01 13:02:10] local.INFO: 46  
+[2017-05-01 13:02:10] local.INFO: 下载图片失败  
+[2017-05-01 13:02:12] local.INFO: queue process  
+[2017-05-01 13:02:12] local.INFO: 46  
+[2017-05-01 13:02:12] local.INFO: 下载图片失败  
+[2017-05-01 13:02:42] local.INFO: queue process  
+[2017-05-01 13:02:42] local.INFO: 46  
+[2017-05-01 13:02:52] local.INFO: queue process  
+[2017-05-01 13:02:52] local.INFO: 46  
+[2017-05-01 13:02:52] local.INFO: 下载图片失败  
+[2017-05-01 13:04:03] local.INFO: queue process  
+[2017-05-01 13:04:03] local.INFO: 46  
+[2017-05-01 13:04:09] local.INFO: 下载图片失败  
+[2017-05-01 13:04:16] local.INFO: queue process  
+[2017-05-01 13:04:16] local.INFO: 46  
+[2017-05-01 13:04:19] local.INFO: queue process  
+[2017-05-01 13:04:19] local.INFO: 46  
+[2017-05-01 13:04:20] local.INFO: queue process  
+[2017-05-01 13:04:20] local.INFO: 46  
+[2017-05-01 13:04:22] local.INFO: queue process  
+[2017-05-01 13:04:22] local.INFO: 46  
+[2017-05-01 14:42:38] local.INFO: return response.  
+[2017-05-01 14:42:38] local.INFO: 生成下载目录成功  
+[2017-05-01 14:42:38] local.INFO: 下载图片成功  
+[2017-05-01 14:42:38] local.INFO: 注册信息保存成功  
+[2017-05-01 14:42:38] local.INFO: 上传成功，接下来发送消息  
+[2017-05-01 17:11:54] local.INFO: 下载图片失败  
+[2017-05-01 17:12:12] local.INFO: 下载图片失败  
+[2017-05-01 17:12:55] local.INFO: 下载图片失败  
